@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Práctica 3</title>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+        #header {
+            background: #333;
+            color: white;
+            height: 80px;
+        }	
+        #header a {
+            color: white;
+        }
+        h1 {
+            font-size: 2.3em;
+            line-height: 1.3em;
+            margin: 15px 0;
+            text-align: center;
+            font-weight: 300;
+        }
+        #footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+            #footer p {
+                margin: 0;
+            }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <pre></pre>
+        <h1>¿Qué te gusta?</h1>
+    </header>
+    <pre></pre>
+    <section>
+        <div class="container">
+            <form class="form-horizontal" role="form">
+                <div class="form-group">
+                    <label for="apellido" class="col-sm-3 control-label">Apellido:</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="apellido">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="nombre" class="col-sm-3 control-label">Nombre:</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="nombre">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <form class="form-inline" role="form">
+                <div class="form-group">
+                    <label for="mail">Mail:</label>
+                    <input type="email" class="form-control" id="mail">
+                </div>
+            </form>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <form role="form">
+                <label for="control1">
+                    Sexo
+                </label>
+                <select class="form-control" id="control1">
+                    <option>Femenino</option>
+                    <option>Masculino</option>
+                    <option>Otros</option>
+                </select>
+                <pre></pre>
+                <label for="control2">
+                    Seleccione lo que más le guste
+                </label>
+                <select multiple class="form-control" id="control2">
+                    <option>Bailar</option>
+                    <option>Cantar</option>
+                    <option>Leer</option>
+                    <option>Música</option>
+                    <option>Dibujar</option>
+                    <option>Estudiar</option>
+                    <option>Ropa</option>
+                    <option>Carros</option>
+                    <option>Ciencia & Tecnología</option>
+                    <option>Deportes</option>
+                    <option>Diseño</option>
+                    <option>Fotografía</option>
+                    <option>Viajar</option>
+                    <option>Animales</option>
+                    <option>Mujeres</option>
+                    <option>Hombres</option>
+                    <option>Cocinar</option>
+                    <option>Dinero</option>
+                </select>
+            </form>
+        </div>
+    </section>
+    <pre></pre>
+    <section>
+        <div class="container">
+            <form role="form">
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary btn-xs">
+                        Noticias
+                    </button>
+                    <button type="submit" class="btn btn-primary btn-sm">
+                        Política
+                    </button>
+                    <button type="submit" class="btn btn-primary btn-lg">
+                        Economía
+                    </button>
+                    <button type="submit" class="btn btn-primary btn-block">
+                        Influencer's
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <pre></pre>
+    <section>
+        <div class="container">
+            <form role="form">
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary btn-lg">
+                        YouTube
+                    </button>
+                    <button type="submit" class="btn btn-primary btn-lg" disabled="disabled">
+                        Twitter
+                    </button>
+                    <button type="submit" class="btn btn-primary btn-lg" disabled="disabled">
+                        Instagram
+                    </button>
+                    <button type="submit" class="btn btn-primary btn-lg" disabled="disabled">
+                        Facebook
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <pre></pre>
+    <section>
+        <div class="container">
+            <div class="btn-group">
+                <button type="button" class="btn btn-default">Trap</button>
+                <button type="button" class="btn btn-default">Reggaetón</button>
+                <button type="button" class="btn btn-default">Pop</button>
+            </div>
+            <div class="btn-toolbar" role="toolbar">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-default">Música clásica</button>
+                    <button type="button" class="btn btn-default">Rock</button>
+                    <button type="button" class="btn btn-default">Merengue</button>
+                    <button type="button" class="btn btn-default">Bachata</button>
+                </div> 
+                <div class="btn-group">
+                    <button type="button" class="btn btn-default">Salsa</button>
+                    <button type="button" class="btn btn-default">Bolero</button>
+                    <button type="button" class="btn btn-default">Instrumental</button>
+                    <button type="button" class="btn btn-default">Jazz</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <pre></pre>
+    <section>
+        <div class="container">
+            <form role="form">
+                <div class="form-group">
+                    <button type="submit" class="btn btn-default">
+                        ¿Te gustan muchas cosas más? De click aquí para seguir seleccionando.
+                    </button>
+                </div>
+                <hr>
+            </form>
+        </div> 
+    </section>
+    <pre></pre>
+    <section>
+        <div class="container">
+            <form role="form">
+                <fieldset disabled> 
+                    <div class="form-group">
+                        <label for="usuario">Nombre de usuario:</label>
+                        <input type="text" class="form-control" id="usuario">
+                    </div>
+                    <div class="form-group">
+                        <label for="clave">Ingrese clave:</label>
+                        <input type="password" class="form-control" id="clave">
+                    </div>
+                </fieldset>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" value="" disabled>
+                        Acepta términos y condiciones
+                    </label>
+                </div>
+                <div class="form-group">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox"> Acepta términos
+                        </label>
+                    </div>
+                </div>
+                <pre></pre>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">
+                        Registrarse
+                    </button>
+                    <button type="submit" class="btn btn-success">
+                        Iniciar sesión
+                    </button>
+                    <button type="submit" class="btn btn-danger">
+                        Lee los Términos y condiciones.
+                    </button>
+                    <pre></pre>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-warning">
+                            No puede iniciar sesión ni registrarse por ahora.
+                        </button>
+                    </div>
+                    <pre></pre>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-info">
+                            Para obtener más información acerca del registro o inicio de sesión presione aquí.
+                        </button>
+                    </div>
+                </div>
+                <pre></pre>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-default">Entrar</button>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-link">
+                        Ir hacia arriba
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer id="footer">
+        <p>&copy; 2021 - Práctica 3</p>
+    </footer>
+</body>
+</html>
