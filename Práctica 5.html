@@ -1,0 +1,404 @@
+<!DOCTYPE html> 
+<html> 
+    <head>
+        <title>Práctica 5</title>
+        <link href="bootstrap.min.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style type="text/css">
+            #footer {
+                background: whitesmoke;
+                text-align: center;
+                padding: 20px;
+                margin-top: 40px;
+            }
+                #footer p {
+                    margin: 0;
+                }
+            #logo {
+                float: left;
+                padding: 0px 0 0 20px;
+                text-decoration: none;
+            }
+                #logo:hover {
+                    color:turquoise;
+                }
+            
+                #logo .name {
+                    display: block;
+                    font-weight: 700;
+                    font-size: 1.5em;
+                }
+            nav {
+                float: right;
+            }
+                nav ul {
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+                    padding-right: 20px;
+                }
+                    nav ul li {
+                        display: inline-block;
+                        line-height: 80px;
+                    }
+                        nav ul li a {
+                            display: block;
+                            padding: 0 10px;
+                            text-decoration: none;
+                        }
+                            nav ul li a:hover {
+                                background-color: turquoise;
+                            }
+            body {
+                margin: 0;
+                padding: 0;
+                background: #f2f2f2; 
+                padding-top: 80px;
+            }
+            #header {
+                background: whitesmoke;
+                height: 80px;
+                width: 100%;
+                left: 0;
+                top: 0;
+                position: fixed;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+                @media only screen and (max-width: 590px){
+                    #header {
+                        flex-direction: column;
+                        align-items: flex-start;
+                    }
+                }
+        </style>
+    </head>
+    <body>
+        <header id="header">
+            <a id="logo" href="#">
+                <span class="name">Medio ambiente</span>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Acerca de</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <div class="container">
+                <ul class="nav nav-tabs nav-justified">
+                    <li class="active"><a href="#">Medioambiente</a></li>
+                    <li class="disabled"><a href="#">Formación de nubes</a></li>
+                    <li><a href="#">Características del medio ambiente</a></li>
+                    <li class="disabled"><a href="#">Tipos de entornos ambientales</a></li>
+                    <li class="ative"><a href="#">Medio ambiente y desarrollo sostenible</a></li>
+                    <li class="active"><a href="#">Medio ambiente: Nuestra casa común</a></li>
+                    <li class="active"><a href="#">Contaminación ambiental</a></li>
+                </ul>
+            </div>
+        </section>
+        <hr>
+        <section>
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">Medio ambiente</a>
+                    </div>
+                    <div>
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">Medio ambiente</a></li>
+                            <li><a href="#">Formación de nubes</a></li>
+                            <li><a href="#">Características del medio ambiente</a></li>
+                            <li><a href="#">Tipos de entornos ambientales</a></li>
+                            <li><a href="#">Medio ambiente y desarrollo sostenible</a></li>
+                            <li><a href="#">Medio ambiente: Nuestra casa común</a></li>
+                            <li><a href="#">Contaminación ambiental</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <section>
+            <div class="container">
+                <br>
+                <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Contenidos
+                    <span class="caret"></span></button>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                        <li role="presentation">
+                            <a role="menuitem" tabindex="-1" href="#">Medio ambiente</a>
+                        </li>
+                        <li role="presentation">
+                            <a role="menuitem" tabindex="-1" href="#">Formación de nubes</a>
+                        </li>
+                        <li role="presentation">
+                            <a role="menuitem" tabindex="-1" href="#">Características del medio ambiente</a>
+                        </li>
+                        <li role="presentation">
+                            <a role="menuitem" tabindex="-1" href="#">Tipos de entornos ambientales</a>
+                        </li>
+                        <li role="presentation">
+                            <a role="menuitem" tabindex="-1" href="#">Medio ambiente y desarrollo sostenible</a>
+                        </li>
+                        <li role="presentation">
+                            <a role="menuitem" tabindex="-1" href="#">Medio ambiente: Nuestra casa común</a>
+                        </li>
+                        <li role="presentation">
+                            <a role="menuitem" tabindex="-1" href="#">Contaminación ambiental</a>
+                        </li>
+                        <li role="presentation" class="divider">
+                        </li>
+                        <li role="presentation">
+                            <a role="menuitem" tabindex="-1" href="#">Fin</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <script src="jquery.min.js"></script>
+            <script src="bootstrap.min.js"></script>
+        </section>
+        <hr>
+        <section>
+            <div class="container">
+                <div class="jumbotron">
+                    <h1>Medio ambiente</h1>
+                    <p>El medio ambiente es un sistema formado por elementos naturales y artificiales que están interrelacionados y que son modificados por la acción humana. Se trata del entorno que condiciona la forma de vida de la sociedad y que incluye valores naturales, sociales y culturares que existen en un lugar y momento determinado.</p>
+                    <p>El cuidado del  medio ambiente no ha de ser únicamnte una preocupación de las empresas, también son los hogares los que han de poner su granito de arena y ponerse cuanto antes manos a la obra para colaborar en el cuidado de nuestro entorno.</p>
+                    <p><strong>Las siguientes son acciones que recomendamos evitar para ayudar con el cuidado del medio ambiente:</strong></p>
+                    <ul>
+                        <li>Consumir agua embotellada.</li>
+                        <li>Usar menos el aire acondicionado</li>
+                        <li>Eliminar basura incorrectamente.</li>
+                        <li>Usar el automóvil para todo.</li>
+                        <li>Dejar conectados los aparatos eléctricos.</li>
+                    </ul>
+                    <hr>
+                    <h4>Para más información:</h4>
+                    <form role="form">
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary btn-lg">Más</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <h1>Formación de nubes</h1>
+                <br>
+                <img src="20190120_113917.jpg" class="img-rounded" width="350px" height="200px">
+                <img src="20190120_113917.jpg" class="img-circle" width="350px" height="200px">
+                <img src="20190120_113917.jpg" class="img-thumbnail" width="350px" height="200px">
+                <hr>
+                <img src="20190120_113917.jpg" class="img-responsive" width="350px" height="200px">
+                <hr>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        Características del medio ambiente
+                    </div> 
+                    <div class="panel-body">
+                        <a href="https://www.caracteristicas.co/medio-ambiente/" target="_blank">10 características de Medio Ambiente</a>
+                    </div>
+                    <div class="panel-footer">
+                        <dl>
+                            <dt>Organismos</dt>
+                            <dd>El medio ambiente incluye todos los organismos vivientes o seres vivos, tanto vegetales como animales. Al hablar de los organismos presentes en el ambiente nos referimos a poblaciones, es decir, el conjunto de individuos de una especie que se encuentra en el ambiente estudiado.</dd>
+                            <dt>Aire</dt>
+                            <dd>El aire es uno de los elementos del medio ambiente que incluye:
+                                <ul>
+                                    <li>Factores bióticos. Microorganismos como virus y bacterias que permanecen en el medio ambiente. Polen o semillas que se disipan gracias al aire.</li>
+                                    <li>Factores abióticos. El viento y la humedad, pero también sustancias inorgánicas contaminantes como el dióxido de carbono o el azufre.</li>
+                                </ul>
+                                Ambos factores contenidos en el aire forman parte del medio ambiente de otros organismos. Por ejemplo, la presencia de determinados virus o bacterias puede volver el ambiente peligroso para el ser humano.
+                            </dd>
+                            <dt>Agua</dt>
+                            <dd>El agua es uno de los elementos indispensables para la supervivencia de los organismos. Los contaminantes del agua están íntimamente relacionados con los contaminantes del aire y del suelo. Por ejemplo, si en el aire hay dióxido de carbono, cae a los espejos de agua a través de las precipitaciones denominadas lluvia ácida.</dd>
+                            <dt>Forestación</dt>
+                            <dd>Los bosques y las selvas son uno de los aspectos del medio ambiente que más afectan su totalidad. Esto se debe a que los bosques y las selvas:
+                                <ul>
+                                    <li>Son los “pulmones” del planeta ya que proveen el oxígeno que consumen los animales y los seres humanos.</li>
+                                    <li>Eliminan el dióxido de carbono contaminante.</li>
+                                    <li>Son el hábitat de cientos de miles de seres vivos.</li>
+                                    <li>Mantienen el equilibrio de humedad y temperatura en el aire.</li>
+                                    <li>Sostienen la fertilidad del suelo.</li>
+                                </ul>
+                            </dd>
+                            <dt>Temperatura</dt>
+                            <dd>La temperatura es uno de los factores abióticos del medio ambiente y que en las últimas décadas ha llamado la atención de científicos y ecologistas debido al fenómeno del calentamiento global. El aumento de temperatura media global es consecuencia de múltiples factores del medio ambiente como la contaminación del aire y la deforestación.</dd>
+                        </dl>
+                    </div>
+                </div>
+                <hr>
+                <div class="panel panel-success">
+                    <div class="panel-heading">
+                        Tipos de entonornos ambientales
+                    </div> 
+                    <div class="panel-body">
+                        <a href="https://www.temasambientales.com/2017/03/tipos-de-medio-ambiente.html">Tipos de medio ambiente</a>
+                    </div>
+                    <div class="panel-footer">
+                        <dl>
+                            <dt>Ambiente natural</dt>
+                            <dd>Ambiente conformado por todo aquello que no ha sido creado ni modificado por el ser humano. 
+                                Se define como "Ambiente natural" al espacio físico que ha sido muy poco intervenido o afectado por el hombre, o más exactamente como lo que no ha sido tocado por el hombre.<br>El medio ambiente natural comprende a todos los seres vivientes y no vivientes que habitan de forma natural en la tierra, en sentido purista,es un ambiente donde es palpable la ausencia del ser humano.<br>El ambiente natural puede describirse por su naturaleza: sus cambios siempre ocurren porque el hombre los ha transformado. En la teoría general de sistemas, un ambiente es un complejo de factores externos que actúan sobre un sistema, y determinan su curso y su forma.</dd>
+                            <dt>Ambiente artificial</dt>
+                            <dd>Es parte de la totalidad no sólo como un componente más sino como una de las causas más profundas del cambio humano.<br>Por oposición se encuentra el ambiente antropizado (artificial), que es el que ha sido afectado por la presencia humana («o ha tocado la mano del hombre»)<br>Estos ambientes son modificados por acción y voluntad del hombre; también se incluyen campos de cultivos, recursos forestales, yacimientos minerales, etc., que son modificados de distintas formas para aprovechar los recursos.</dd>
+                        </dl>
+                    </div>
+                </div>
+                <hr>
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        Medio ambiente y desarrollo sostenible
+                    </div> 
+                    <div class="panel-body">
+                        <a href="https://encolombia.com/medio-ambiente/interes-a/desarrollo-sostenible/">Desarrollo sostenible.</a>
+                    </div>
+                    <div class="panel-footer">
+                        <p>Ante todos los problemas que existen en el planeta como consecuencia del crecimiento de la población, el desarrollo económico y tecnológico que ha impactado sobre los recursos naturales, el medio ambiente y en efecto sobre la calidad de vida de las sociedades; es que hay que buscar un nuevo cambio social, económico, político y cultural, que permita garantizar y conservar el entorno para las presentes y futuras generaciones. Es decir, toda la humanidad tiene la responsabilidad de construir un nuevo mundo, donde el desarrollo no implique destruir los elementos de la naturaleza dando origen a cantidades de problemas ambientales, que ponen en riesgo la vida humana y la de la tierra.</p>
+                        <p>En ese sentido, resulta importante hoy más que nunca un cambio de conducta, comportamiento, explotación, consumo y una forma de utilizar conscientemente los recursos naturales para lograr un desarrollo que permita un progreso que conserve el medio ambiente, la diversidad biológica, la vida, y todo el potencial de la naturaleza para satisfacer las necesidades de los niños presentes, sin poner en peligro la de las futuras generaciones que merecen una mejor calidad de vida.</p>
+                        <p>Por lo tanto, el desarrollo sostenible es la responsabilidad que tiene toda la humanidad de conseguir lograr un progreso económico que no termine con la salud de la población como consecuencia de la destrucción del medio ambiente. De ahí que, este término de desarrollo sostenible sea conservar los recursos naturales, los ecosistemas, la biodiversidad, entre muchos otros componentes del ambiente que son los que mantienen un equilibrio en el planeta y que, gracias al desarrollo económico convencional del hombre, es que actualmente hay un desequilibrio que está rompiendo con la salud y calidad de vida de todos.</p>
+                        <p>Por consiguiente, el desarrollo sostenible es la mejor alternativa ante el actual desarrollo económico que sobreexplota y contamina el aire, agua, suelo, flora y fauna para satisfacer sus necesidades presentes, pero comprometiendo las de las futuras con graves problemas ambientales que deterioran la calidad del ambiente, la salud y vida de la humanidad.</p>
+                        <p>Por otra parte, el desarrollo sostenible busca que la actividad social y económica asegure y mantenga el medio ambiente haciendo uso eficiente de los recursos renovables y no renovales, así como también reducir la contaminación por medio de las energías renovables, la protección de la diversidad biológica y los ecosistemas, el reciclaje, estudio de impacto ambiental, entre otros aspectos ambientales para mejorar la calidad de vida de toda la humanidad.</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="panel panel-warning">
+                    <div class="panel-heading">
+                        Medio ambiente: Nuestra casa común
+                    </div> 
+                    <div class="panel-body">
+                        <a href="https://www.sustentartv.com/medio-ambiente-planeta-nuestra-casa-comun-ese-lugar-donde-respiramos-trabajamos/">Medio ambiente: es nuestro planeta, nuestra casa común, ese lugar donde respiramos</a>
+                    </div>
+                    <div class="panel-footer">
+                        <p>El medio ambiente es nuestro PLANETA, nuestra casa común, ese lugar donde respiramos, trabajamos, criamos nuestros hijos, en síntesis vivimos.</p>
+                        <p>Nosotros necesitamos de ella y que no podemos seguir consumiendo recursos como lo hacemos hoy.</p>
+                        <p>Cambio climático, calentamiento global, efecto invernadero, desastres naturales, biodiversidad en peligro, refugiados climáticos, desigualdad social, todos términos a partir de nuestra desidia y la falta de respeto por lo que nos rodea. Cerramos la puerta de nuestras casas y nos nos importa nada, total prendemos la luz y se prende, ponemos la calefacción y estamos calentitos,  la basura desaparece del canasto de la puerta y el cambio de pensar como ser más eficientes con esos recursos o en que tacho va el residuo, o si hago compost en la maceta es demasiado esfuerzo porque tengo muchas preocupaciones, si los demás no lo hacen y seguimos añadiendo excusas para tomar el tema enserio.</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="panel panel-danger">
+                    <div class="panel-heading">
+                        Contaminación ambiental
+                    </div> 
+                    <div class="panel-body">
+                        <a href="http://www.lineaverdehuelva.com/lv/consejos-ambientales/contaminantes/Que-es-la-contaminacion-ambiental.asp">¿Qué es la contaminación ambiental?</a>
+                    </div>
+                    <div class="panel-footer">
+                        <p>Se denomina contaminación ambiental a la presencia de componentes nocivos (ya sean químicos, físicos o biológicos) en el medio ambiente (entorno natural y artificial), que supongan un perjuicio para los seres vivos que lo habitan, incluyendo a los seres humanos. La contaminación ambiental está originada principalmente por causas derivadas de la actividad humana, como la emisión a la atmósfera de gases de efecto invernadero o la explotación desmedida de los recursos naturales.</p>
+                        <p>Causas de la contaminación ambiental</p>
+                        <p>Las fuentes antropogénicas que generan mayor contaminación ambiental son las siguientes:</p>
+                        <ul>
+                            <li>Tala excesiva de árboles.</li>
+                            <li>Emisiones y vertidos industriales a la atmósfera y a la hidrosfera.
+                            </li>
+                            <li>Extracción, procesamiento y refinamiento de combustibles fósiles (petróleo, carbón y gas natural).</li>
+                            <li>Producción de energía con combustibles fósiles y otras fuentes no renovables.</li>
+                            <li>Uso excesivo de automóviles y otros medios de transporte impulsados por gasolina o diésel.</li>
+                            <li>Uso indiscriminado de plásticos y otros materiales derivados del petróleo.</li>
+                            <li>Liberación de plásticos y objetos no biodegradables en espacios naturales.</li>
+                        </ul>
+                        <p>Consecuencias de la contaminación ambiental</p>
+                        <p>Una de las principales consecuencias de la contaminación ambiental es el calentamiento global, también conocido como cambio climático, por el cual la temperatura del planeta va aumentando de manera progresiva, tanto la temperatura atmosférica como la de mares y océanos.</p>
+                        <p>La contaminación ambiental supone un riesgo para la salud de los seres vivos que habitan los ecosistemas contaminados, incluyendo a los seres humanos. Además, la tala indiscriminada, la explotación excesiva de los recursos naturales y la emisión de contaminantes al medio ambiente (gases a la atmósfera, vertidos en medios acuáticos, residuos sólidos) provoca la destrucción de ecosistemas. De esta forma, muchas especies de animales y plantas ven cómo su hábitat natural se va reduciendo cada vez más, pudiendo llegar a provocar incluso su extinción.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <ul class="pagination">
+                    <li><a href="#"><</a></li>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">6</a></li>
+                    <li><a href="#">></a></li>
+                </ul>
+                <ul class="pagination pagination-sm">
+                    <li><a href="#"><</a></li>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">6</a></li>
+                    <li><a href="#">></a></li>
+                </ul>
+                <ul class="pagination pagination-lg">
+                    <li><a href="#"><</a></li>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">6</a></li>
+                    <li><a href="#">></a></li>
+                </ul>
+                <ul class="pager">
+                    <li class="previous disabled"><a href="#">Anteriores</a></li>
+                    <li class="next"><a href="#">Siguientes</a></li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-success" role="progressbar" style="width:70%">
+                        70%
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-info" role="progressbar" style="width:80%">
+                        80%
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-warning" role="progressbar" style="width:90%">
+                        90%
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-danger" role="progressbar" style="width:95%">
+                        95%
+                    </div>
+                </div>
+                <hr>
+                <div class="progress progress-striped">
+                    <div class="progress-bar progress-bar-success" role="progressbar" style="width:70%">
+                        70%
+                    </div>
+                </div>
+                <hr>
+                <div class="progress progress-striped active">
+                    <div class="progress-bar progress-bar-success" role="progressbar" style="width:70%">
+                        70%
+                    </div>
+                </div>
+                <hr>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-success" role="progressbar" style="width:30%">
+                        Correcto
+                    </div>
+                    <div class="progress-bar progress-bar-warning" role="progressbar" style="width:30%">
+                        Cuidado
+                    </div>
+                    <div class="progress-bar progress-bar-danger" role="progressbar" style="width:20%">
+                        Peligro
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id="footer">
+            <p>&copy; 2021 <a href="#" target="_blank">Yameli Matínez</a></p>
+        </footer>
+    </body>
+</html>
