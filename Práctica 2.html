@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Práctica 2</title>
+	<link href="bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+        #header{
+            background: #FFEEDB;
+	        color: white;
+            height: 80px;
+            width: 100%;
+	        left: 0;
+	        top: 0;
+            position: fixed;
+        }
+            #header a {
+                color: coral;
+                font-weight: 700;
+                font-size: 1.2em;
+            }
+        #logo {
+            float: left;
+            padding: 15px 0 0 20px;
+            text-decoration: none;
+        }
+        #logo:hover {
+            color: #256EFF;
+        }
+	
+        #logo .name {
+            display: block;
+            font-weight: 700;
+            font-size: 1.2em;
+        }
+        #logo .desc {
+            display: block;
+            font-weight: 700;
+            font-size: 0.9em;
+            color: #fff;
+        }
+        nav {
+            float: right;
+        }
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            padding-right: 20px;
+        }
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+		}
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+				nav ul li a:hover {
+					background: #256EFF;
+                }
+        #footer {
+            background: white;
+            color: black;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        #footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+	<header id="header">
+		<a id="logo" href="#">
+			<span class="name" style="color: blue;">ADE<span style="color: coral;">MAX</span></span>
+			<span class="desc" style="color: blue;">Papelería SRL</span>
+		</a>
+		<nav>
+			<ul>
+				<li><a href="#">Inicio</a></li>
+                <li><a href="#">Contáctanos</a></li>
+			</ul>
+		</nav>
+    </header>
+    <pre>
+
+
+
+    </pre>
+    <section>
+        <div class="container">
+            <table class="table table-hover">
+                <header style="font-weight: 700;font-size: 1.2em;">Papel</header>
+                <thead>
+                    <tr>
+                        <th>Marca</th>
+                        <th>Tipo</th>
+                        <th>Medida</th>
+                        <th>Grosor</th>
+                        <th>Importación desde...</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Infoprint</td>
+                        <td>Bon 20 - Bon 24</td>
+                        <td>8/2x11 - 8/2x14 - 11x17 - 17x22 - 22x24</td>
+                        <td>75gm - 80gm</td>
+                        <td>Local</td>
+                    </tr>
+                    <tr>
+                        <td>Rex</td>
+                        <td>Bon 20 - Bon 24</td>
+                        <td>8/2x11 - 8/2x14 - 11x17 - 17x22 - 22x24</td>
+                        <td>75gm - 80gm</td>
+                        <td>Local</td>
+                    </tr>
+                    <tr>
+                        <td>Office Pro</td>
+                        <td>Bon 20 - Bon 24</td>
+                        <td>8/2x11 - 8/2x14 - 11x17 - 17x22 - 22x24</td>
+                        <td>75gm - 80gm</td>
+                        <td>Local</td>
+                    </tr>
+                    <tr>
+                        <td>Abby</td>
+                        <td>Bon 20 - Bon 24</td>
+                        <td>8/2x11 - 8/2x14 - 11x17 - 17x22 - 22x24</td>
+                        <td>75gm - 80gm</td>
+                        <td>Local</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <table class="table">
+                <header style="font-weight: 700;font-size: 1.2em;">Rollos de papel</header>
+                <thead>
+                    <tr>
+                        <th>Marca</th>
+                        <th>Tipo</th>
+                        <th>Tamaño</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="info">
+                        <td>Stan Top</td>
+                        <td>Bon 20 - Satinado</td>
+                        <td>2-1/4 - 3 - 3-1/8 - 4</td>
+                    </tr>
+                    <tr class="info">
+                        <td>Abby</td>
+                        <td>Bon 20 - Satinado</td>
+                        <td>2-1/4 - 3 - 3-1/8 - 4</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <table class="table">
+                <header style="font-weight: 700;font-size: 1.2em;">Cartulinas</header>
+                <thead>
+                    <tr>
+                        <th>Tipos</th>
+                        <th>Tamaño</th>
+                        <th>Colores</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>Satinadas</td>
+                    <td>8/2x11 - 20x26 - 22x34 - 24x36</td>
+                    <td>Variados</td>
+                </tr>
+                <tr>
+                    <td>Oppalina</td>
+                    <td>8/2x11 - 20x26 - 22x34 - 24x36</td>
+                    <td>Variados</td>
+                </tr>
+                <tr>
+                    <td>Bristol</td>
+                    <td>8/2x11 - 20x26 - 22x34 - 24x36</td>
+                    <td>Variados</td>
+                </tr>
+            </table>
+            <table class="table table-condensed">
+                <header style="font-weight: 700;font-size: 1.2em;">Folder's</header>
+                <thead>
+                    <tr>
+                        <th>Marcas</th>
+                        <th>Tipos</th>
+                        <th>Tamaño</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>Ingrana</td>
+                    <td>Manila</td>
+                    <td>8/2x11 - 8/2X14</td>
+                </tr>
+                <tr>
+                    <td>Abby</td>
+                    <td>Manila - Plástico</td>
+                    <td>8/2x11 - 8/2X14 - 9X12 - A4</td>
+                </tr>
+                <tr>
+                    <td>AMPO</td>
+                    <td>Manila</td>
+                    <td>8/2x11 - 8/2X14</td>
+                </tr>
+                <tr>
+                    <td>Ofinota</td>
+                    <td>Manila</td>
+                    <td>8/2x11 - 8/2X14</td>
+                </tr>
+                <tr>
+                    <td>AS Plus</td>
+                    <td>Manila</td>
+                    <td>8/2x11 - 8/2X14</td>
+                </tr>
+                <tr>
+                    <td>Artesco</td>
+                    <td>Plástico</td>
+                    <td>8/2x11 - 9X12 - A4</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="table-responsive">
+                <header style="font-weight: 700;font-size: 1.2em;">Clip's</header>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Marca</th>
+                            <th>Tipos</th>
+                            <th>Material</th>
+                            <th>Tamaño</th>
+                            <th>Colores</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Artesco</td>
+                            <td>Normal - Billeteros - Mariposa</td>
+                            <td>Metal - revestido de plástico</td>
+                            <td>Número 1 y número 2 (grandes y pequeños)</td>
+                            <td>Variados</td>
+                        </tr>
+                        <tr>
+                            <td>ACCO</td>
+                            <td>Normal - Billeteros - Mariposa</td>
+                            <td>Metal - revestido de plástico</td>
+                            <td>Número 1 y número 2 (grandes y pequeños)</td>
+                            <td>Variados</td>
+                        </tr>
+                        <tr>
+                            <td>Nurstar</td>
+                            <td>Normal - Billeteros - Mariposa</td>
+                            <td>Metal - revestido de plástico</td>
+                            <td>Número 1 y número 2 (grandes y pequeños)</td>
+                            <td>Variados</td>
+                        </tr>
+                        <tr>
+                            <td>Pointer</td>
+                            <td>Normal - Billeteros - Mariposa</td>
+                            <td>Metal - revestido de plástico</td>
+                            <td>Número 1 y número 2 (grandes y pequeños)</td>
+                            <td>Variados</td>
+                        </tr>
+                        <tr>
+                            <td>Tyrol</td>
+                            <td>Normal - Billeteros - Mariposa</td>
+                            <td>Metal - revestido de plástico</td>
+                            <td>Número 1 y número 2 (grandes y pequeños)</td>
+                            <td>Variados</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <table class="table table-bordered">
+            <header style="font-weight: 700;font-size: 1.2em;">Lápices</header>
+            <thead>
+                <tr>
+                    <th>Marcas</th>
+                    <th>Tipos</th>
+                    <th>Importación de...</th>
+                    <th>Presentación</th>
+                </tr> 
+            </thead>
+            <tbody>
+                <tr> 
+                    <td>Berol</td>
+                    <td>Carbón #2</td>
+                    <td>China</td>
+                    <td>Sin punta</td>
+                </tr>
+                <tr> 
+                    <td>Mirado</td>
+                    <td>Carbón #2</td>
+                    <td>China</td>
+                    <td>Sin punta</td>
+                </tr>
+                <tr> 
+                    <td>Pointer</td>
+                    <td>Dibujo - Carbón #2 - Colores</td>
+                    <td>China</td>
+                    <td>Con punta y sin punta</td>
+                </tr>
+                <tr>
+                    <td>Artesco</td>
+                    <td>Dibujo - Carbón #2 - Colores</td>
+                    <td>China</td>
+                    <td>Con punta</td>
+                </tr>
+                <tr>
+                    <td>Stabilo</td>
+                    <td>Dibujo - Carbón #2 - Colores</td>
+                    <td>China</td>
+                    <td>Con punta</td>
+                </tr>
+                <tr>
+                    <td>Pelikan</td>
+                    <td>Carbón #2</td>
+                    <td>China</td>
+                    <td>Con punta</td>
+                </tr>
+                <tr>
+                    <td>Obies</td>
+                    <td>Carbón #2 - Colores</td>
+                    <td>China</td>
+                    <td>Con punta</td>
+                </tr>
+                <tr>
+                    <td>Tyrol</td>
+                    <td>Carbón #2 - Colores</td>
+                    <td>China</td>
+                    <td>Con punta</td>
+                </tr>
+                <tr>
+                    <td>3unión</td>
+                    <td>Carbón #2</td>
+                    <td>China</td>
+                    <td>Con punta</td>
+                </tr>
+                <tr>
+                    <td>Studmark</td>
+                    <td>Carbón #2 - Colores</td>
+                    <td>China</td>
+                    <td>Con punta</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+    <pre>
+    </pre>
+    <div class="container">
+        <h3>Formulario para contactarnos:</h3>
+        <pre></pre>
+        <form role="form">
+            <div class="form-group">
+                <label for="nombre" style="font-weight: 700;">Ingrese su mail:</label>
+                <input type="mail" class="form-control" id="nombre" required>
+            </div>
+            <pre></pre>
+            <div class="form-group">
+                <label for="clave" style="font-weight: 700;">Ingrese su clave:</label>
+                <input type="password" class="form-control" id="clave" required>
+            </div>
+        </form>
+    </div>
+    <pre></pre>
+    <div class="container">
+        <form role="form">
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> Requiere de nuestros servicios.
+                </label>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> Realizar un pedido.
+                </label>
+            </div>
+            <pre></pre>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="radioa"> Contactar por vía telefónica
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="radioa"> Contactar por medio de una dirección electrónica
+                </label>
+            </div>
+        </form>
+    </div>
+    <pre></pre>
+    <div class="container">
+        <form role="form">
+            <div class="form-group">
+                <label for="comentario" style="font-weight: 700;">Deje aquí sus comentarios</label>
+                <textarea class="form-control" rows="5" id="comentarios"></textarea>
+            </div>
+            <pre></pre>
+            <button type="submit" class="btn btn-default" style="font-weight: 700;">Enviar</button>
+        </form>
+    </div>
+    <footer id="footer">
+        <p>Calle Hilario Espertín, #30 / Sector Don Bosco</p>
+        <p>Teléfono: 809-686-1018</p>
+        <a href="#" style="text-decoration: none;">
+            <span style="color: blue; font-weight: 700;font-size: 1.2em;">ADE<span style="color: coral;">MAX</span></span>
+            <span style="color: blue; font-weight: 700;font-size: 1.2em;">Papelería SRL</span>
+        </a>
+    </footer>
+</body>
+</html>
